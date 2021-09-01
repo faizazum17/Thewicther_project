@@ -5,8 +5,19 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
+html {
+  font-family:'Josefin Sans Light', Courier, monospace;
+}
+
 body {
   font-family: "Lucida Grande";
+}
+
+html, body {
+  padding: 0; 
+  margin: 0; 
+  height: 100%;
+  max-height: 2000px;
 }
 
 li {
@@ -261,4 +272,79 @@ header {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+
+.world-wrapper {
+  background-image: url(img/wallpaperflare\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 900px
+}
+
+.world-container {
+  width: 1080px;
+  margin: auto;
+}
+
+.place {
+  font-family: thewitchermedium;
+  color: #F9F9F9;
+  display: inline-block;
+  text-align: center;
+  margin: 150px 50px;
+}
+
+.place img {
+  height: 350px;
+  width: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+}
+
+.witcher-symbol {
+  display: none;
+}
+
+.about {
+
+  text-align: center;
+  margin: 298px auto;
+}
+
+.about h1 {
+  font-family: thewitchermedium;
+  color:#D81B27;
+  font-size: 50px;
+  height: 70px;
+  padding-bottom: 38px;
+}
+
+.about p {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-image: url("img/landscape1.jpg");
+  background-size: 100%;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials img {
+  height: 100px;
+  width: 100px;
+}
+
+.twitter {
+  padding-left: 35px;
+  padding-right: 35px;
 }
