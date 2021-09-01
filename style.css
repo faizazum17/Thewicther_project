@@ -69,7 +69,6 @@ a {
 }
 
 header {
-  width: 100%;
   background-color: rgba(255, 255, 2555, 0);
   /* Ubah position ke fixed, dan top ke 0 */
   top:0;
@@ -103,7 +102,7 @@ header {
 }
 
 .about{
-  padding: 180px 150px ;
+  padding: 200px 150px ;
   margin: 0 auto;
 }
 
@@ -133,7 +132,7 @@ header {
   width:300px !important;
 }
 
-.about-us:hover {
+.about-us-sec:hover {
   color:#D81B27;
   padding-top:17px;
 }
@@ -278,8 +277,8 @@ header {
 .world-wrapper {
   background-image: url(img/wallpaperflare\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 900px
+  background-size: cover;
+  height: 800px;
 }
 
 .world-container {
@@ -302,37 +301,32 @@ header {
   margin-bottom: 10px;
 }
 
-.container {
-  width: 100%;
-}
+
 
 .witcher-symbol {
   display: none;
 }
 
-.about {
-
+.about-us {
+  padding:200px 150px 200px 150px;
   text-align: center;
-  margin: 298px auto;
 }
 
-.about h1 {
+.about-us h1 {
   font-family: thewitchermedium;
   color:#D81B27;
   font-size: 50px;
-  height: 70px;
   padding-bottom: 38px;
 }
 
-.about p {
-  font-size: 28px;
+.about-us p {
+  font-size: 25px;
+  font-family: josefinsans;
 }
 
 footer {
-  width: 100%;
-  height: 100px;
   background-image: url("img/landscape1.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
 
 .socials {
@@ -340,8 +334,8 @@ footer {
 }
 
 .socials img {
-  height: 100px;
-  width: 100px;
+  height: 65px;
+  width: 65px;
 }
 
 .twitter {
