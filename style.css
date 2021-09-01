@@ -218,7 +218,32 @@ header {
 }
 
 
+.world-wrapper {
+  background-image: url(img/wallpaperflare\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 900px
+}
 
+.world-container {
+  width: 1080px;
+  margin: auto;
+}
+
+.place {
+  font-family: thewitchermedium;
+  color: #F9F9F9;
+  display: inline-block;
+  text-align: center;
+  margin: 150px 50px;
+}
+
+.place img {
+  height: 350px;
+  width: 250px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
 
 .container {
   width: 100%;
