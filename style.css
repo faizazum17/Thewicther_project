@@ -58,11 +58,12 @@ a {
   max-width: 1920px ;
   max-height: 1080px;
   margin: 0 auto;
+  position: absolute;
 
 }
 
 .logo{
-
+  position: relative;
 }
 
 .logo img{
@@ -80,7 +81,7 @@ a {
   font-size: 60px;
   padding: 21px 21px;
   /* Gantikan property display ke none */
-  display: none;
+  display: none !important;
 }
 
 header {
