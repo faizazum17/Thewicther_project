@@ -36,12 +36,19 @@ a {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'josefinsans';
+  src: url('font/josefin/josefinsanslight-zvell-webfont.woff') format('woff2'),
+       url('font/josefin/josefinsanslight-zvell-webfont.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Ketik code Anda bawah */
 .top-wrapper {
   padding: 230px 0 520px 720px;
   background-image: url(img/image\ 2.png);
   color: white;
-  text-align: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +58,7 @@ a {
   max-width: 1920px ;
   max-height: 1080px;
   margin: 0 auto;
-  position:absolute
+  position:absolute;
 }
 
 .logo{
@@ -63,14 +70,12 @@ a {
 }
 
 header {
-  height: 65px;
-  width: 100%;
   background-color: rgba(255, 255, 2555, 0);
   /* Ubah position ke fixed, dan top ke 0 */
-  position:fixed;
   top:0;
   /* Ubah z-index ke 10 */
   z-index:10;
+  background-color: #e9e9e9;
 }
 
 
@@ -81,7 +86,7 @@ header {
 }
 
 .header-right:hover {
-  color: #d81b27
+  color: #d81b27;
 }
 
 .header-right a {
@@ -94,7 +99,58 @@ header {
 }
 
 .jarak{
-  padding-right:45px !important;
+  padding-right:55px !important;
+}
+
+.about{
+  padding: 200px 150px ;
+  margin: 0 auto;
+}
+
+.about h1{
+  font-family:thewitchermedium;
+  color:#d81b27;
+  font-size:56px;
+  margin-bottom:30px;
+}
+
+.about p{
+  font-size:25px;
+  width:100%;
+  font-family: josefinsans;
+}
+
+
+.logo-witcher{
+  float:right;
+  position: relative;
+  bottom:50px;
+  left:40px;
+  width:25%;
+}
+
+.logo-witcher img{
+  width:300px !important;
+}
+
+.about-us-sec:hover {
+  color:#D81B27;
+  padding-top:17px;
+}
+
+.world:hover {
+  color:#D81B27;
+  padding-top:17px;
+}
+
+.char:hover {
+  color:#D81B27;
+  padding-top:17px;
+}
+
+.home:hover {
+  color:#D81B27;
+  padding-top:17px;
 }
 
 /* Slideshow container */
@@ -103,6 +159,7 @@ header {
   position: relative;
   margin: auto;
 }
+
 
 /* Hide the images by default */
 .mySlides {
@@ -121,16 +178,16 @@ header {
 .mySlides h3 {
   font-family: thewitchermedium;
   position: absolute;
-  top: 16%;
+  top: 20%;
   left: 13%;
   color: #E6E6E6;
   font-size: 56px;
 }
 
 .mySlides p {
-  font-family: sans-serif;
+  font-family: josefinsans;
   position: absolute;
-  top: 28%;
+  top: 30%;
   left: 13%;
   color: #E6E6E6;
   font-size: 16px;
@@ -221,8 +278,8 @@ header {
 .world-wrapper {
   background-image: url(img/wallpaperflare\ 1.png);
   background-repeat: no-repeat;
-  background-size: 100%;
-  height: 900px
+  background-size: cover;
+  height: 800px;
 }
 
 .world-container {
@@ -236,6 +293,7 @@ header {
   display: inline-block;
   text-align: center;
   margin: 150px 50px;
+  overflow: hidden;
 }
 
 .place img {
@@ -243,39 +301,39 @@ header {
   width: 250px;
   object-fit: cover;
   margin-bottom: 10px;
+  transition: transform .5s ease;
+  display:block;
 }
 
-.container {
-  width: 100%;
+.place:hover img{
+  transform: scale(1.5);
 }
+
 
 .witcher-symbol {
   display: none;
 }
 
-.about {
-
+.about-us {
+  padding:200px 150px 200px 150px;
   text-align: center;
-  margin: 298px auto;
 }
 
-.about h1 {
+.about-us h1 {
   font-family: thewitchermedium;
   color:#D81B27;
   font-size: 50px;
-  height: 70px;
   padding-bottom: 38px;
 }
 
-.about p {
-  font-size: 28px;
+.about-us p {
+  font-size: 25px;
+  font-family: josefinsans;
 }
 
 footer {
-  width: 100%;
-  height: 100px;
   background-image: url("img/landscape1.jpg");
-  background-size: 100%;
+  background-size: cover;
 }
 
 .socials {
@@ -283,8 +341,8 @@ footer {
 }
 
 .socials img {
-  height: 100px;
-  width: 100px;
+  height: 65px;
+  width: 65px;
 }
 
 .twitter {

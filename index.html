@@ -16,21 +16,31 @@
 
 <body>
     <header>
-        <div class="header-right">
-            <a href="#" class="jarak">About Us</a>
-			<a href="#">World</a>
-			<a href="#character">Character</a>
-			<a href="#">Home</a>
-      	</div>
-    </header>
+          	<div class="header-right">
+            <a href="#about-us" class="about-us-sec">About Us</a>
+			<a href="#world" class="world">World</a>
+			<a href="#character" class="char">Character</a>
+			<a href="#" class="home">Home</a>
+          	</div>
+        </div>
+      </header>
 	
     <div class="top-wrapper">
         <div class="top-container">
             <div class="logo">
 				<img src="/img/1200px-EN_The-Witcher-3_Logo-Black_RGB.svg.png" alt="xixi">
 			</div>
-      	</div>
-	</div>
+      </div>
+	  </div>
+	  
+	  <div class="about">
+		<h1>About Project</h1>
+		<div class="logo-witcher">
+			<img class="logo-witcher" src="/img/474-4744234_witcher-3-icon-png-wild-hunt-transparent-png-removebg-preview.png" alt="logo-witcher">
+		</div>
+		<p>The Witcher 3: Wild Hunt is the third and final installment in the series of games developed by CD Projekt RED featuring the witcher Geralt of Rivia. The game was originally scheduled for release in late 2014, then pushed back to 24 February 2015, and finally released on 19 May 2015. During the first two weeks since release it had sold more than 4 million copies worldwide, more than doubling the total sales of its predecessor, The Witcher 2: Assassins of Kings.</p>
+	  </div>
+
 
 	<div class=slideshow id="character">
 	<!-- Slideshow container -->
@@ -83,7 +93,7 @@
             </div>
 
             <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="prev" id="prevId" style="display: none;" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
             <!-- The dots/circles -->
             <div class="dots">
@@ -96,7 +106,7 @@
         </div>
 	</div>
 
-    <div class=world-wrapper>
+    <div class=world-wrapper id="world">
         <div class=world-container>
             <div class=place>
                 <img src="img/kaer 1.png" alt="">
@@ -114,7 +124,7 @@
     </div>
 
 	<div class="container"><img src="img/1200px-EN_The-Witcher-3_Logo-Black_RGB.svg.png" class="witcher-symbol">
-		<div class="about">
+		<div class="about-us" id="about-us">
 			<h1>ABOUT US</h1>
 			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
 		</div>
