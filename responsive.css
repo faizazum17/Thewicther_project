@@ -125,4 +125,19 @@
         margin: 0 auto;
         padding-bottom: 30px;
     }
+
+    .mySlides h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .mySlides p {
+        font-size: 8px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .dots {
+        display: none
+    }
 }
