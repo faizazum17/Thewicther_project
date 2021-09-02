@@ -58,11 +58,11 @@ a {
   max-width: 1920px ;
   max-height: 1080px;
   margin: 0 auto;
-  position:absolute;
+
 }
 
 .logo{
-  position:relative;
+
 }
 
 .logo img{
@@ -138,7 +138,7 @@ header {
 .logo-witcher{
   float:right;
   position: relative;
-  bottom:50px;
+  bottom:10px;
   left:40px;
   width:25%;
 }
@@ -170,6 +170,10 @@ header {
 /* Slideshow container */
 .slideshow {
   width: 100%;
+}
+
+.slideshow-header-mobile {
+  display: none; /*hanya keliatan di mobile*/
 }
 
 .slideshow-container {
