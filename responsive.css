@@ -1,19 +1,19 @@
 /*Tablet*/
 @media (max-width: 1000px) {
-    .about {
+    .about-us {
         max-width: 800px;
         max-height: 315px;
         text-align: center;
         margin: 180px 40px;
     }
 
-    .about h1 {
+    .about-us h1 {
         color:#D81B27;
         font-size: 40px;
         padding-bottom: 25px;
     }
 
-    .about p {
+    .about-us p {
         font-size: 21px;
     }
 
@@ -47,6 +47,16 @@
 
 /*Mobile*/
 @media (max-width: 670px) {
+
+    .header-right{
+        display:none; 
+    }
+
+    .logo{
+        width:100%;
+    }
+
+
     .container {
         height: 896px;
         background-color: #C9C9C9;
@@ -91,5 +101,9 @@
     .twitter {
         padding: 0 68px;
     }
+
+    .menu-icon {
+        display: block;
+      }
 }
 
