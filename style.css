@@ -292,6 +292,7 @@ header {
   display: inline-block;
   text-align: center;
   margin: 150px 50px;
+  overflow: hidden;
 }
 
 .place img {
@@ -299,8 +300,13 @@ header {
   width: 250px;
   object-fit: cover;
   margin-bottom: 10px;
+  transition: transform .5s ease;
+  display:block;
 }
 
+.place:hover img{
+  transform: scale(1.5);
+}
 
 
 .witcher-symbol {
