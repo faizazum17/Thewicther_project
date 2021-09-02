@@ -125,7 +125,6 @@
         padding-bottom: 100px;
     }
 
-<<<<<<< HEAD
     .mySlides h3 {
         font-size: 20px;
         margin-bottom: 10px;
@@ -140,14 +139,4 @@
     .dots {
         display: none
     }
-=======
-    .mySlides p {
-        margin-top: 20px;
-    }
-
-    .about-us{
-        padding:50px 15px;
-    }
-
->>>>>>> a0b2fe27e13b5babba370a18c7bd683a36c16b5d
 }
