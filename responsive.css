@@ -51,10 +51,6 @@
         font-size: 10px;
     }
 
-    .world-wrapper {
-        height: auto;
-    }
-
 
     .place img {
         width: 150px;
@@ -65,15 +61,15 @@
 
 
 /*Mobile*/
-@media (max-width: 670px) {
+@media (max-width: 670px) {  
     .header-right {
         display: none;
     }
     
     .menu-icon { /*di gw menunya masih nggak mau muncul*/
-        display: inline-block;
+        display: inline-block !important;
         color: black;
-        font-size: 60px;
+        font-size: 35px !important;
         padding: 21px 21px;
     }
 
@@ -84,6 +80,7 @@
 
     .logo { 
         margin: 0 auto;
+        display: none;
     }
 
     .logo img {/*gw nggak bisa bikin dia pas di tengah*/
@@ -100,9 +97,11 @@
 
     .logo-witcher {
         position: static;
+        right: 30%;
         margin: 0 auto;
+        margin-left: 100px !important;
         float: none;
-        width: 300px
+        width: 100px
     }
 
     .logo-witcher img { /*ukuran masih salah dan gw nggak ngerti cara benerin*/
@@ -123,9 +122,10 @@
         text-align: center;
         width: 80%;
         margin: 0 auto;
-        padding-bottom: 30px;
+        padding-bottom: 100px;
     }
 
+<<<<<<< HEAD
     .mySlides h3 {
         font-size: 20px;
         margin-bottom: 10px;
@@ -140,4 +140,14 @@
     .dots {
         display: none
     }
+=======
+    .mySlides p {
+        margin-top: 20px;
+    }
+
+    .about-us{
+        padding:50px 15px;
+    }
+
+>>>>>>> a0b2fe27e13b5babba370a18c7bd683a36c16b5d
 }
