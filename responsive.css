@@ -4,7 +4,6 @@
         max-width: 800px;
         max-height: 315px;
         text-align: center;
-        margin: 180px 40px;
     }
 
     .about-us h1 {
@@ -21,7 +20,7 @@
         width: 100%;
         background-image: url("the_witcher_3_wild_hunt_manufacture 1.png");
         background-size: cover;
-        height: 110px;
+        height: 50px;
         padding-top: 12.5px;
         padding-bottom: 12.5px;
     }
@@ -33,13 +32,33 @@
     }
 
     .socials a img {
-        width: 85px;
-        height: 85px;
+        width: 50px;
+        height: 50px;
     }
 
     .twitter {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    .slideshow h3 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .slideshow p {
+        max-width: 300px;
+        font-size: 10px;
+    }
+
+    .world-wrapper {
+        height: auto;
+    }
+
+
+    .place img {
+        width: 150px;
+        height: 210px;
     }
 
 }
