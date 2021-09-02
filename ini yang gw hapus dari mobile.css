@@ -1,0 +1,91 @@
+* {
+    max-width: 480px;
+}
+
+.header-right{
+    display:none; 
+}
+
+.logo{
+    width:100%;
+}
+
+.top-wrapper {
+    max-width: 670px;
+    width: 100%;
+}
+
+.container {
+    height: 896px;
+    background-color: #C9C9C9;
+}
+
+.witcher-symbol {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.about {
+    height: 733px;
+    margin: 22px 65px;
+}
+
+.about h1 {
+    font-size: 30px;
+    height: 39px;
+    padding-bottom: 44px;
+}
+
+.about p {
+    font-size: 23px;
+}
+
+footer {
+    width: 100%;
+    height: 129px;
+    padding: 29px;
+}
+
+.socials {
+    height: 70px;
+}
+
+.socials a img{
+    width: 70px;
+    height: 70px;
+}
+
+.twitter {
+    padding: 0 68px;
+}
+
+.menu-icon {
+    display: block;
+    color: black;
+    float: right;
+    font-size: 60px;
+    padding: 21px 21px;
+    z-index: 10;
+  }
+}
+
+.slideshow-header-mobile {
+    display: block;
+    margin: 0 auto;
+}
+
+.slideshow-header-mobile img {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+}
+
+.slideshow-header-mobile h2 {
+    font-family: thewitchermedium;
+    text-align: center;
+}
+
+.mySlides p {
+    display: none;
+}

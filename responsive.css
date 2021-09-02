@@ -66,63 +66,63 @@
 
 /*Mobile*/
 @media (max-width: 670px) {
-
-    .header-right{
-        display:none; 
+    .header-right {
+        display: none;
+    }
+    
+    .menu-icon { /*di gw menunya masih nggak mau muncul*/
+        display: inline-block;
+        color: black;
+        font-size: 60px;
+        padding: 21px 21px;
     }
 
-    .logo{
-        width:100%;
+    .top-wrapper { /*cara ngecrop imagenya biar sama kayak mockup gimana ya?*/
+        padding: 250px 100px;
+        background-size: cover;
     }
 
-
-    .container {
-        height: 896px;
-        background-color: #C9C9C9;
-    }
-
-    .witcher-symbol {
-        display: block;
+    .logo { 
         margin: 0 auto;
-        padding-top: 25px;
+    }
+
+    .logo img {/*gw nggak bisa bikin dia pas di tengah*/
+        width: 150%;
+        height: auto;
     }
 
     .about {
-        height: 733px;
-        margin: 22px 65px;
+        background-color: #C9C9C9;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-witcher {
+        position: static;
+        margin: 0 auto;
+        float: none;
+        width: 300px
+    }
+
+    .logo-witcher img { /*ukuran masih salah dan gw nggak ngerti cara benerin*/
+        width: 100px;
+        height: auto;
+        margin: 0 auto;
     }
 
     .about h1 {
-        font-size: 30px;
-        height: 39px;
-        padding-bottom: 44px;
+        font-size: 26px;
+        text-align: center;
+        width: 100%;
+        padding-top: 20px;
     }
 
     .about p {
-        font-size: 23px;
+        font-size: 20px;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
-
-    footer {
-        width: 100%;
-        height: 129px;
-        padding: 29px;
-    }
-
-    .socials {
-        height: 70px;
-    }
-
-    .socials a img{
-        width: 70px;
-        height: 70px;
-    }
-
-    .twitter {
-        padding: 0 68px;
-    }
-
-    .menu-icon {
-        display: block;
-      }
 }
-
